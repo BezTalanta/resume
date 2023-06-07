@@ -1,0 +1,211 @@
+@media screen and (max-device-width: 1499px) and (min-device-width: 901px) {
+    .black {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 300px;
+        width: 100%;
+        background-color: rgb(63, 63, 63);
+        color: white;
+        text-align: center;
+        /* overflow-x: auto;
+        overflow-y: auto; */
+    }
+
+    .black .name {
+        position: absolute;
+        left: 100px;
+        top: 50px;
+        width: 600px;
+        font-size: 15px;
+        /* overflow-x: auto;
+        overflow-y: auto; */
+    }
+
+    .line1 {
+        position: absolute;
+        width: 100%;
+        top: 395px;
+        left: 0px;
+        background-color: rgb(63, 63, 63);
+    }
+
+    .brown {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        height: 800px;
+        width: 400px;
+        background-color: rgb(130, 119, 115);
+        color: white;
+        visibility: hidden;
+    }
+
+    .brown .me {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        border: 2px solid white;
+        box-shadow: 2px 5px 5px black;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .brown .brown-down {
+        text-align: center;
+        width: 400px;
+        height: 100%;
+        position: absolute;
+        top: 400px;
+        background-color: rgb(114, 105, 100);
+    }
+
+    .brown .brown-down .brown-down-line {
+        width: 90%;
+        color: white;
+    }
+
+    .brown .brown-down .brown-down-block {
+        display: flex;
+        margin-left: 40px;
+        /* border: 2px solid black; */
+        width: 350px;
+        text-align: left;
+    }
+
+    .brown .brown-down .right-separator {
+        width: 80%;
+        float: right;
+        /* border: 2px solid red; */
+    }
+
+    .brown .brown-down .right-separator a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .brown .brown-down .right-separator a:hover {
+        color: red;
+    }
+
+    .brown .brown-down .left-separator {
+        width: 20%;
+        float: left;
+        /* border: 2px solid green; */
+    }
+
+    .brown .brown-down .left-separator img {
+        width: 35px;
+        height: 35px;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+
+    .main {
+        position: absolute;
+        top: 430px;
+        left: 550px;
+        width: 67%;
+        height: 1000px;
+        /* border: 2px solid black; */
+        padding: 5px;
+    }
+
+    .main .header {
+        /* width: 1200px; */
+        width: 100%;
+        height: 50px;
+        /* border: 2px solid black; */
+        display: flex;
+    }
+
+    .main .header .hr_ {
+        width: 5px;
+        height: 40px;
+        background-color: rgb(130, 119, 115);
+        border: 0px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+
+    .main .header .text_ {
+        background-color: rgb(130, 119, 115);
+        color: white;
+        height: 100%;
+        width: 100%;
+    }
+
+    .main .header .text_ h2 {
+        margin: 0;
+        padding: 0;
+        line-height: 30px;
+        height: 25px;
+        /* position: absolute; */
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+    .main .text_area {
+        width: calc(100% - 10px);
+        margin-left: 10px;
+        /* border: 1px solid black; */
+        background-color: rgb(232, 231, 226);
+        color: rgb(114, 105, 100);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* overflow-x: auto;
+        white-space: nowrap; */
+        /* overflow-y: auto; */
+    }
+
+    .main .text_area h3{
+        color: rgb(114, 105, 100);
+        padding: 10px;
+    }
+
+    .main .text_area .hard-skill{
+        padding: 10px;
+        display: flex;
+        /* border: 2px solid black; */
+    }
+
+    .main .text_area .hard-skill .img_{
+        /* border: 2px solid green; */
+        width: 350px;
+        margin-left: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .main .text_area .hard-skill .img_ img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+
+    .main .text_area .hard-skill .hearts{
+        margin-left: 50px;
+        /* border: 2px solid red; */
+        font-size: 25px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 65px;
+        width: 200px;
+    }
+
+    .main .text_area .hard-skill .description{
+        margin-left: 70px;
+        /* border: 2px solid blue; */
+        font-size: 23px;
+        vertical-align: middle;
+        line-height: 63px;
+        width: 100%;
+    }
+
+    body {
+        overflow: auto;
+    }
+}
